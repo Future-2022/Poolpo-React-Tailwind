@@ -1,0 +1,26 @@
+.overflow-remove {
+    overflow-x: hidden;
+}
+
+div.modal-filter {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #D6CCF3 #EEEAF9;
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+div.modal-filter::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+}
+div.modal-filter::-webkit-scrollbar-track {
+    background-color: #EEEAF9;
+    border-radius: 8px;
+    width: 8px;
+    background-clip: padding-box;  
+  }
+
+div.modal-filter::-webkit-scrollbar-thumb {
+    background-color: #D6CCF3;
+    width: 8px;
+    border-radius: 8px;
+    background-clip: padding-box;  
+}

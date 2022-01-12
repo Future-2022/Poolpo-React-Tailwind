@@ -1,0 +1,92 @@
+div.model-select {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #D6CCF3 #EEEAF9;
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+div.model-select::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+}
+div.model-select::-webkit-scrollbar-track {
+    background-color: #EEEAF9;
+    border-radius: 8px;
+    width: 8px;
+    background-clip: padding-box;  
+  }
+
+div.model-select::-webkit-scrollbar-thumb {
+    background-color: #D6CCF3;
+    width: 8px;
+    border-radius: 8px;
+    background-clip: padding-box;  
+}
+  
+.ReactModal__Content--after-open {
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 16px !important;
+}
+.Toastify__toast-container, .Toastify__toast, .Toastify__toast--error {
+    z-index: 50;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+.modern-radio-container {
+    margin: 6px 0;
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+.radio-outer-circle {
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    min-height: 18px;
+    border: 2px solid #0d5bc6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    transition: all 0.1s linear;
+}
+  
+.radio-inner-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border-color: #0453c0;
+    background-color: #4f85eb;
+    transition: all 0.1s linear;
+}
+.unselected {
+    border: 2px solid #666; 
+}
+.unselected-circle {
+    width: 0;
+    height: 0;
+}
+.helper-text {
+    color: #666;
+    padding-right: 8px;
+}
+
+@media only screen and (max-width: 480px) {
+    .Toastify__toast-container {
+      width: 80vw;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+

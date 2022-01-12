@@ -1,0 +1,11 @@
+.contact-input::placeholder {
+
+    color: #364103;
+    opacity: 1;
+
+}
+.contact-textarea::placeholder {
+
+    font-style: italic;
+
+}

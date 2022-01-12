@@ -1,0 +1,17 @@
+.ReactModal__Overlay--after-open {
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+    border-radius: 16px !important;
+}
+.Toastify__toast-container, .Toastify__toast, .Toastify__toast--error {
+    z-index: 50;
+}
+
+@media only screen and (max-width: 480px) {
+    .Toastify__toast-container {
+      width: 80vw;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }

@@ -1,0 +1,12 @@
+div.list-wrapper {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #D6CCF3 #EEEAF9;
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+div.list-wrapper::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+}
+input:focus {
+    outline: none;
+}
