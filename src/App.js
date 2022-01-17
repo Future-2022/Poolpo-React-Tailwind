@@ -107,8 +107,8 @@ function App() {
             {/* New create page by Aliev */}
             <Route path="/house/basic" component={House} />
             <Route path="/house/steps" component={Rental} />
-            <Route path="/house/hiring/data/:leadID/:propertyID/:quoteID" component={HouseHiring}/>
-            <Route path="/house/hiring/payment/:leadID/:propertyID/:quoteID" component={HouseHiringPayment}/>
+            <Route path="/house/hiring/data/:leadID/:propertyID/:quoteID" component={HouseHiring} />
+            <Route path="/house/hiring/payment/:leadID/:propertyID/:quoteID" component={HouseHiringPayment} />
             <Route path="/house/hiring/property/:leadID/:propertyID/:quoteID" component={HouseHiringProperty} />
             <Route path="/house/quotation/:leadID/:quoteID" component={HouseQuotation} />
             <Route path="/house/congratulations/:leadID/:proertyID/:quoteID" component={HouseCongrats} />
